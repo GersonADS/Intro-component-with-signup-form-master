@@ -74,8 +74,14 @@
     font-weight: 700;
     border: 1px solid hsl(246, 34%, 89%);
 }
+.container .aside .form .inputs.image{
+    background-image: url(/images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 96%;
+}
 
 .container .aside .form .inputs.btn{
+    cursor: pointer;
     border-bottom: 4px solid hsl(154, 59%, 43%);
     color: rgb(235, 230, 230);
     word-spacing: .2rem;

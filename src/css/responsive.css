@@ -1,0 +1,58 @@
+@media (max-width: 1415px) {
+    .container{
+        text-align: center;
+        flex-direction: column;
+        background-color: brown;
+    }
+}
+
+@media (max-width: 620px){
+    .container{
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+   
+.container .main {
+    color: white;
+    /* padding-left: 60px; */
+    font-size: 18pt;
+    width: 510px;
+    background-color: blue;
+}
+    .container .main p{
+        margin: 15px;
+        line-height: 2rem;
+    }
+}
+@media (max-width: 556px){
+    
+.container .main {
+    color: white;
+    /* padding-left: 60px; */
+    font-size: 18pt;
+    width: 410px;
+    /* background-color: bisque; */
+}
+
+.container .main h1{
+    font-size: 2rem;
+}
+.container .aside .form{
+    width: 327px;
+    margin: auto;
+}
+
+.container .aside .try {
+    display: flex;
+    width: 327px;
+    height: 88px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container .aside .try .text .textinner{
+    color:hsl(246, 25%, 77%);
+}
+
+}

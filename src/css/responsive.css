@@ -24,22 +24,40 @@
     }
 }
 @media (max-width: 556px){
-    
+.container{
+    padding: 0;
+}
+
+
+
 .container .main {
+    margin-top: 70px;
+    margin-inline: auto;
     color: white;
     /* padding-left: 60px; */
-    font-size: 18pt;
-    width: 410px;
-    /* background-color: bisque; */
+    width: 327px;
 }
 
 .container .main h1{
-    font-size: 2rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    margin: 0;
 }
-.container .aside .form{
+.container .main p{
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.container .aside {
+    width: 300px;
+    box-shadow: 1px ;
     width: 327px;
-    margin: auto;
+    margin-top: 30px;
+    margin-inline:auto;
+    box-shadow: 0 33px 1px rgba(0, 0, 0, 0.127);
+    margin-bottom: 7rem;
 }
+
 
 .container .aside .try {
     display: flex;

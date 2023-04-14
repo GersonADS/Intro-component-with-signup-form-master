@@ -25,22 +25,21 @@
 
 .container .main p {
     color: hsl(240, 3%, 94%) ;
-    font-size: 12.5pt;
+    font-size: 17.2px;
 }
 
 .container .aside {
     text-align: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 8px 1px rgba(0, 0, 0, 0.127);
     border-radius: 1rem;
-    /* background-color:tomato; */
     height: 580px;
     width: 540px;
     gap: 20px;
 }
 
 .container .aside .try{
+    display: flex;
     color: hsl(246, 25%, 77%);
     background-color: hsl(248, 32%, 49%);
     box-shadow: 0 8px 1px rgba(0, 0, 0, 0.127);
@@ -50,6 +49,9 @@
 }
 
 .container .aside .try .text{
+    margin-left: 90px;
+    margin-right: 5px;
+    gap: 10px;
     font-weight: 500;
     color: #fff;
 }
@@ -58,6 +60,7 @@
     padding: 45px 45px;
     display: flex;
     padding: 40px;
+    box-shadow: 0 8px 1px rgba(0, 0, 0, 0.127);
     flex-direction: column;
     background-color:white;
     gap: 20px;

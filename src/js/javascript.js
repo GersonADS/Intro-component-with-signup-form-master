@@ -9,14 +9,11 @@ let $Password =document.querySelector('#password');
 
 //botao teste 
 
-let $butao = document.querySelector('#_button');
-
-
 let $Button = document.querySelector('#button');
 
 let RegEx = RegExp('^[0,9a-zA-Z]{5,10}[@][a-z]{0,10}[.][a-z]{0,5}$');
 
-$butao.addEventListener('click',()=>{
+$Button.addEventListener('click',()=>{
     
     let inputs = [$Name,$lname,$Email,$Password];
     let values = [$Name.value,$lname.value,$Email.value,$Password.value];

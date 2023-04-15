@@ -10,7 +10,7 @@
 
 @media (max-width: 620px){
     .container{
-        background-image: url(/images/bg-intro-mobile.png);
+        background-image: url('../images/bg-intro-mobile.png');
     }
    
 .container .main {
